@@ -1,0 +1,164 @@
+/***** BASE STYLES *****/
+body {
+background-color: black;
+margin: 40px;
+padding-left: 50px;
+}
+
+/***** GRID *****/
+
+.full-width .footer{
+  width: 1400px;
+  margin: 0 auto;
+}
+.half-width {
+  width: 700px;
+  float: left;
+}
+
+/***** HEADER *****/
+
+header {
+  color: white;
+  font-family: 'Great Vibes', cursive;
+  width: 1400px;
+  height: 900px;
+}
+
+header h1 {
+  font-size: 90px;
+  text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav {
+  padding-top: 30px;
+}
+
+nav ul li{
+  display: inline-block;
+  text-align: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 60px;
+  padding-left: 110px;
+  color: white;
+}
+
+/***** ABOUT *****/
+
+#about {
+  background-color: #84090B;
+  height: 900px;
+}
+
+#about h2 {
+  font-family: 'Tangerine', cursive;
+  font-size: 72px;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 60px;
+  color: white;
+}
+
+#about p {
+  font-size: 28px;
+  font-family: times;
+  color: white;
+  line-height: 40px;
+  padding-left: 20px;
+}
+
+#bio-photo {
+  border: 10px solid black;
+  margin: 20px 0 0 80px;
+}
+
+/***** WORK *****/
+
+#work {
+  background-color: white;
+  height: 900px;
+  font-family: 'Tangerine', cursive;
+  font-size: 68px;
+  text-align: center;
+  padding-top: 15px;
+  color: black;
+}
+
+#work p {
+  color: black;
+  font-family: times;
+  font-size: 28px;
+  text-align: right;
+  line-height: 40px;
+}
+
+#work img {
+  padding-top: 60px;
+}
+
+/***** PHOTOS *****/
+
+#photos {
+  background-color: black;
+  height: 900px;
+  color: white;
+  font-family: 'Tangerine', cursive;
+  font-size: 46px;
+  text-align: center;
+  width: 1400px;
+  padding-top: 10px;
+}
+
+#photos img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    height: 300px;
+}
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/***** CONTACT *****/
+
+#contact {
+  height: 900px;
+  width: 1400px;
+  color: black;
+  background: url('../img/crown-background.jpg') no-repeat;
+  background-size: cover;
+}
+
+#contact h2 {
+  font-family: 'Tangerine', cursive;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#contact p {
+  font-family: 'Tangerine', cursive;
+  font-size: 64px;
+  line-height: 70px;
+  text-align: left;
+  padding: 400px 20px 0px 20px;
+}
+
+/***** FOOTER *****/
+
+footer {
+  color: white;
+  clear: both;
+  height: 80px;
+  font-size: 18px;
+  width: 1400px;
+  text-align: center;
+  padding-top: 20px;
+}
